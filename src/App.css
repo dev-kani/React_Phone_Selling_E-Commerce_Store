@@ -8,24 +8,33 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif !important;
-  background: var(--mainWhite) !important;
-  color: var(--mainDark) !important;
+  font-family: "Oswald", sans-serif;
+  background: var(--mainWhite);
+  color: var(--mainDark);
 }
+
 .text-title {
   font-family: "Permanent Marker", cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
+
 .text-blue {
   color: var(--mainBlue);
 }
+
 .text-bright {
   color: var(--lightBlue);
 }
+
 .navbar {
-  justify-content: flex-start !important;
+  justify-content: flex-start;
 }
+
+.fa-home {
+  color: rgb(233, 185, 83);
+}
+
 .btn-black {
   background: transparent;
   text-transform: capitalize;
@@ -34,10 +43,12 @@ body {
   border-radius: 0 !important;
   border: 0.1rem solid var(--mainDark) !important;
 }
+
 .btn-black:hover {
   background: var(--mainDark) !important;
   color: var(--mainWhite) !important;
 }
+
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
